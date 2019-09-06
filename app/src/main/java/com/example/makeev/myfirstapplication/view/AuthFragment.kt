@@ -1,4 +1,4 @@
-package com.example.makeev.myfirstapplication
+package com.example.makeev.myfirstapplication.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,6 @@ import android.os.Looper
 import android.support.annotation.StringRes
 import android.support.v4.app.Fragment
 import android.text.TextUtils
-import android.util.Log
 import android.util.Patterns
 import android.view.LayoutInflater
 import android.view.View
@@ -16,11 +15,12 @@ import android.widget.AutoCompleteTextView
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.makeev.myfirstapplication.R
+import com.example.makeev.myfirstapplication.utils.ApiUtils
 import com.example.makeev.myfirstapplication.albums.AlbumsActivity
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
-import okhttp3.Credentials
 import retrofit2.HttpException
 
 

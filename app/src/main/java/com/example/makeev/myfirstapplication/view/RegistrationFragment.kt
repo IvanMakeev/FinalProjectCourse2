@@ -1,4 +1,4 @@
-package com.example.makeev.myfirstapplication
+package com.example.makeev.myfirstapplication.view
 
 import android.os.Bundle
 import android.support.annotation.StringRes
@@ -11,6 +11,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.makeev.myfirstapplication.R
+import com.example.makeev.myfirstapplication.utils.ApiUtils
 import com.example.makeev.myfirstapplication.model.ErrorResponse
 import com.example.makeev.myfirstapplication.model.User
 import com.google.gson.Gson

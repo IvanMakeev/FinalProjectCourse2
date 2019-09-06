@@ -1,8 +1,7 @@
-package com.example.makeev.myfirstapplication
+package com.example.makeev.myfirstapplication.utils
 
 import com.example.makeev.myfirstapplication.model.*
 import com.example.makeev.myfirstapplication.model.converter.DataConverterFactory
-import com.google.gson.annotations.JsonAdapter
 import io.reactivex.Completable
 import io.reactivex.Single
 import retrofit2.Call

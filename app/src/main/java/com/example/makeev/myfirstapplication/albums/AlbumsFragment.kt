@@ -5,11 +5,10 @@ import android.support.v4.app.Fragment
 import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.makeev.myfirstapplication.ApiUtils
+import com.example.makeev.myfirstapplication.utils.ApiUtils
 import com.example.makeev.myfirstapplication.App
 import com.example.makeev.myfirstapplication.R
 import com.example.makeev.myfirstapplication.album.DetailAlbumFragment

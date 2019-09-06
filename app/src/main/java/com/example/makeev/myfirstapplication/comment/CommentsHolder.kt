@@ -3,7 +3,7 @@ package com.example.makeev.myfirstapplication.comment
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
-import com.example.makeev.myfirstapplication.ApiUtils
+import com.example.makeev.myfirstapplication.utils.ApiUtils
 import com.example.makeev.myfirstapplication.R
 import com.example.makeev.myfirstapplication.model.AlbumComment
 

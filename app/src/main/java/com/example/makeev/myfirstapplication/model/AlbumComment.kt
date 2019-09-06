@@ -3,7 +3,6 @@ package com.example.makeev.myfirstapplication.model
 import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
-import com.example.makeev.myfirstapplication.ApiUtils
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable

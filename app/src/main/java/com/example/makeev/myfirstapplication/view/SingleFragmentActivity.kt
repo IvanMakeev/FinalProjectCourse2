@@ -1,8 +1,9 @@
-package com.example.makeev.myfirstapplication
+package com.example.makeev.myfirstapplication.view
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
+import com.example.makeev.myfirstapplication.R
 
 abstract class SingleFragmentActivity : AppCompatActivity() {
 

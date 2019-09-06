@@ -1,5 +1,7 @@
-package com.example.makeev.myfirstapplication
+package com.example.makeev.myfirstapplication.utils
 
+import com.example.makeev.myfirstapplication.BuildConfig
+import com.example.makeev.myfirstapplication.R
 import com.example.makeev.myfirstapplication.model.converter.DataConverterFactory
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -110,21 +112,6 @@ object ApiUtils {
     fun changeUserRuntime(email: String, password: String) {
         userSelectionInterceptor.email = email
         userSelectionInterceptor.password = password
-    }
-
-    class UserSelectionInterceptor : Interceptor {
-
-        var email: String = ""
-        var password: String = ""
-
-        override fun intercept(chain: Interceptor.Chain): Response {
-            val credentials = Credentials.basic(email, password)
-            val request = chain.request()
-            val authenticatedRequest: Request = request.newBuilder()
-                    .header("Authorization", credentials)
-                    .build()
-            return chain.proceed(authenticatedRequest)
-        }
     }
 }
 

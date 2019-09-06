@@ -13,7 +13,7 @@ import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.example.makeev.myfirstapplication.ApiUtils
+import com.example.makeev.myfirstapplication.utils.ApiUtils
 import com.example.makeev.myfirstapplication.App
 import com.example.makeev.myfirstapplication.R
 import com.example.makeev.myfirstapplication.db.MusicDao
